@@ -1,10 +1,10 @@
 matrix:
  include:
   - language: c
-    sudo: false # only for faster builds
+    sudo: false 
     compiler: 
      - clang
      - gcc
     script:
-      - gcc -o p2 p2.c // we can use gcc instead of clang too
+      - gcc -o p2 p2.c 
       - ./p2
