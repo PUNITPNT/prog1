@@ -6,5 +6,5 @@ matrix:
      - clang
      - gcc
     script:
-      - gcc -o door door.c // we can use gcc instead of clang too
-      - ./door
+      - gcc -o p2 p2.c // we can use gcc instead of clang too
+      - ./p2
