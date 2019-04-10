@@ -6,5 +6,5 @@ matrix:
      - clang
      - gcc
     script:
-      - gcc -o p2 p2.c 
-      - ./p2
+      - gcc -o door door.c 
+      - ./door
